@@ -1,0 +1,9 @@
+cas:
+  server-login-url: http://localhost:8080/cas
+  server-url-prefix: http://localhost:8080/cas/login
+  client-host-url: http://localhost:8081
+server:
+  port: 8081
+spring:
+  application:
+    name: cas-client
